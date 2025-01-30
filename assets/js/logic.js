@@ -9,3 +9,9 @@ function saymyname () {
    alert("Hi " + myname);
    return
 }
+
+function areyousure() {
+   var answer = confirm("Are you sure you want to be done with this exercise?");
+   alert(answer);
+   return
+}
